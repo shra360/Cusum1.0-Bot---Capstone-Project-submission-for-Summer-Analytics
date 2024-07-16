@@ -1,0 +1,135 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": ["Hello", "Hey there", "Greetings", "I need help", "Hi", "hey"],
+            "responses": ["Greetings, I am Cusum1.0, the Customer Support Bot for XYZ-GoShip. How may I help you?", "Hello there! I am Cusum1.0, your assistant for queries related to XYZ-GoShip. How can I assist you?"]
+        },
+        {
+            "tag": "password_reset",
+            "patterns": ["How can I reset my password?", "I forgot my password, what should I do?", "Reset password instructions"],
+            "responses": ["To reset your password, click on 'Forgot Password' at the login screen and follow the instructions."]
+        },
+        {
+            "tag": "order_status",
+            "patterns": ["What is the status of my order?", "Can you tell me the status of my order?", "Where is my order?", "Location of my order"],
+            "responses": ["Your order is currently being processed and should ship within the next 2-3 business days."]
+        },
+        {
+            "tag": "shipping_address",
+            "patterns": ["How do I update my shipping address?", "Change shipping address", "Update address for my order"],
+            "responses": ["You can update your shipping address in your account settings under 'Address Book'."]
+        },
+        {
+            "tag": "return_product",
+            "patterns": ["Can I return a product?", "What is the return policy?", "Return item", "I want to return the product I received today"],
+            "responses": ["You can return a product within 30 days of purchase. Please visit our returns page for more details."]
+        },
+        {
+            "tag": "track_shipment",
+            "patterns": ["How do I track my shipment?", "Track my order", "Where is my shipment?"],
+            "responses": ["You can track your shipment using the tracking number provided in your order confirmation email."]
+        },
+        {
+            "tag": "payment_methods",
+            "patterns": ["What payment methods do you accept?", "How can I pay for my order?", "Payment options"],
+            "responses": ["We accept all major credit cards, PayPal, and bank transfers."]
+        },
+        {
+            "tag": "delivery_time",
+            "patterns": ["How long does delivery take?", "Delivery time for orders", "When will my order arrive?"],
+            "responses": ["Delivery usually takes 3-5 business days after the order is processed."]
+        },
+        {
+            "tag": "cancel_order",
+            "patterns": ["How can I cancel my order?", "Cancel my order", "I want to cancel my purchase"],
+            "responses": ["You can cancel your order within 48 hours of purchase and before it has been delivered. Please contact our support team for assistance."]
+        },
+        {
+            "tag": "product_availability",
+            "patterns": ["Is this product available?", "Check product availability", "Is this item in stock?"],
+            "responses": ["Please check the product page for the most up-to-date availability information."]
+        },
+        {
+            "tag": "contact_support",
+            "patterns": ["How can I contact support?", "Customer support contact", "Need help from support"],
+            "responses": ["You can contact our support team via the 'Contact Us' page on our website."]
+        },
+        {
+            "tag": "refund_status",
+            "patterns": ["What is the status of my refund?", "Refund status", "Where is my refund?"],
+            "responses": ["Your refund is being processed and should be completed within 5-7 business days."]
+        },
+        {
+            "tag": "payment_issue",
+            "patterns": ["I have a problem with my payment", "Payment failed", "Issue with payment", "Payment not going through"],
+            "responses": ["Please check your payment details and try again. If the problem persists, contact our support team for assistance."]
+        },
+        {
+            "tag": "exchange_product",
+            "patterns": ["Can I exchange a product?", "Exchange item", "Product exchange policy"],
+            "responses": ["You can exchange a product within 30 days of purchase. Please visit our exchange page for more details."]
+        },
+        {
+            "tag": "order_change",
+            "patterns": ["Can I change my order?", "Modify my order", "Change order details"],
+            "responses": ["You can change your order within 24 hours of placing it. Please contact our support team for assistance."]
+        },
+        {
+            "tag": "promo_codes",
+            "patterns": ["Do you have any promo codes?", "Current promotions", "Discount codes"],
+            "responses": ["You can find current promotions and discount codes on our website's promotions page."]
+        },
+        {
+            "tag": "technical_issue",
+            "patterns": ["I'm having a technical issue", "Technical problem", "Site not working"],
+            "responses": ["We apologize for the inconvenience. Please describe the issue, and our technical support team will assist you."]
+        },
+        {
+            "tag": "account_creation",
+            "patterns": ["How do I create an account?", "Sign up process", "Create new account"],
+            "responses": ["You can create an account by clicking on the 'Sign Up' button on our website and filling in the required information."]
+        },
+        {
+            "tag": "newsletter_signup",
+            "patterns": ["How do I sign up for the newsletter?", "Subscribe to newsletter", "Newsletter subscription"],
+            "responses": ["You can sign up for our newsletter by entering your email address in the subscription box at the bottom of our website."]
+        },
+        {
+            "tag": "order_confirmation",
+            "patterns": ["Did my order go through?", "Order confirmation", "Confirm my order"],
+            "responses": ["You should receive an order confirmation email shortly. If you don't receive it, please check your spam folder or contact our support team."]
+        },
+        {
+            "tag": "product_recommendations",
+            "patterns": ["Can you recommend a product?", "Product suggestions", "What should I buy?"],
+            "responses": ["Sure! Please tell me what you're looking for, and I'll help you find the best options."]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thank you very much", "thanks for help","thanks", "Thank you!", "I am thankful"],
+            "responses": ["I am delighted to have helped you. Please leave a feedback.","There's no need to thank. We are glad to have helped you.","Always ready to help! Have a nice day!", "We are grateful, dear customer. Thanks for using Cusum Bot"]
+        },
+        {
+            "tag": "complaint",
+            "patterns": ["I want to complain", "complaint file", "Where can I file a complaint?", "I have grievances"],
+            "responses": ["We are sorry for disheartening you. To file a complaint, please go to our website, clicl on the 'Reach Out to us' button and file a complaint."]
+        },
+        {
+            "tag": "feedback1",
+            "patterns": ["Where can I leave a feedback?", "I want to write a feedback", "I wanna leave feedback"],
+            "responses": ["To leave a feedback, you can go to our website and leave a feedback under the 'Reach out to us'. You can also leave a feedback here by beginning it with FB100 and I can automatically forward that feedback to the Customer Care Team"]
+        },
+        {
+            "tag": "feedback2",
+            "patterns": ["FB100 impressed","FB100 very bad service", "FB100 improvement", "FB100 The bot lacks efficiency", "FB100"],
+            "responses": ["Thank you for your feedback!"]
+        },
+        {
+            "tag": "website",
+            "patterns": ["Website", "Link to your website", "What is your website?"],
+            "responses": ["Our website link is: www.xyzgoshipshraofficial.org. Is there any other way I can help you?"]
+        }
+    ]
+}
+
